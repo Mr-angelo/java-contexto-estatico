@@ -8,10 +8,13 @@ public class PersonaPrueba {
         Persona persona1 = new Persona("Firulais");
         Persona persona2 = new Persona("Willilis");
         
+         imprimir(persona1);
+          imprimir(persona2);
         
-        System.out.println("Persona1 = " + persona1 );
-         System.out.println("Persona2 = " + persona2 );
-        
+    }
+    
+    public static void imprimir(Persona persona){
+        System.out.println("Persona = " + persona);
     }
     
 }

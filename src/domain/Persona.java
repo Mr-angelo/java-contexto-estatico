@@ -16,7 +16,7 @@ public class Persona {
         //Incrementa el valor del contador
         Persona.contadorPersona++;
         //Asingnar valor al id
-        this.idPersona= contadorPersona;
+        this.idPersona = contadorPersona;
         
     }
 
